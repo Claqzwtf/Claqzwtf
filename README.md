@@ -1,16 +1,15 @@
-### Hi there 👋
+from GitHub import ReadMe
 
-<!--
-**Claqzwtf/Claqzwtf** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Claqz(ReadMe):
+    "/Claqz/Claqz/README.md"
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def __init__(self):
+        self.username = "CLaqz"
+        self.description = "coding since 06/17/22, don't forget to follow and star for more :)"
+        self.contacts = {
+            "discord": "Claqz#6006"
+        }
+        self.aliases = [
+            "Claqz",
+            "Mxrs"
+        ]
